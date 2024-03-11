@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { ImSearch } from 'react-icons/im';
 import { IconContext } from 'react-icons';
 import css from './Searchbar.module.css';
 
 class Searchbar extends Component {
-  static propTypes = {
-    onSubmit: PropTypes.func.isRequired,
-  };
-
   state = {
     value: '',
   };
